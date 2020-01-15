@@ -5,5 +5,5 @@ using namespace std;
 int main()
 {
 	//自分の名前を一文字打ったら改行を行う
-	cout << "中\n田\n周\n育\n"; 
+	std::cout << "中\n田\n周\n育\n"; 
 }
