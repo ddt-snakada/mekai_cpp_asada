@@ -1,3 +1,4 @@
+//ヘッダ<iostream>をインクルードする指令が欠如していると、どうなるであろうか。プログラムをコンパイルして検証せよ。
 using namespace std;
 int main()
 {
