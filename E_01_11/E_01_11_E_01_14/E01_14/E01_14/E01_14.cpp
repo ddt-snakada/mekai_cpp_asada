@@ -11,12 +11,15 @@ using namespace std;
 int main()
 {
 	srand(time(NULL));            //rand()‚Ìí‚ğİ’è‚·‚é
-	int random_int;               //-5`5‚ª“ü‚é•Ï”
-	int enterd_int;               //“ü—Í‚³‚ê‚é®”‚ğ“ü‚ê‚é•Ï”
-	random_int = (rand() % 11) - 5;  //0`10‚Ì—”‚©‚ç5‚ğˆø‚­‚±‚Æ‚É‚æ‚è-5`5‚Ì®”‚ğì‚é
+	int randomIntger;               //-5`5‚ª“ü‚é•Ï”
+	int enterdInteger;               //“ü—Í‚³‚ê‚é®”‚ğ“ü‚ê‚é•Ï”
+
+	 //0`10‚Ì—”‚©‚ç5‚ğˆø‚­‚±‚Æ‚É‚æ‚è-5`5‚Ì®”‚ğì‚é
+	randomIntger = (rand() % 11) - 5; 
 	cout << "®”’l:";
-	cin >> enterd_int;            //®”‚ğ“ü—Í‚·‚éB
+
+	cin >> enterdInteger;            //®”‚ğ“ü—Í‚·‚éB
 
 	//“ü—Í‚³‚ê‚½•Ï”‚É-5`5‚ğ‘«‚µ“ü—Í’l‚©‚ç}5‚Ì—”‚ğ¶¬‚·‚é‚±‚Æ‚ğÀŒ»‚·‚é
-	cout << "‚»‚Ì’l‚Ì}5‚Ì—”‚ğ¶¬‚µ‚Ü‚µ‚½B‚»‚ê‚Í" << enterd_int + random_int << "‚Å‚·B";
+	cout << "‚»‚Ì’l‚Ì}5‚Ì—”‚ğ¶¬‚µ‚Ü‚µ‚½B‚»‚ê‚Í" << enterdInteger + randomIntger << "‚Å‚·B";
 }
