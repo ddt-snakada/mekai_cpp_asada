@@ -3,10 +3,10 @@
 #include<iostream>
 
 int main() {
-	//実数値を入力するための二つの変数を用意する。
+	//整数値を入力するための二つの変数を用意する。
 	int integerNumber1;
 	int integerNumber2;
-	//大きい実数を代入するための変数を用意する。
+	//整数値の差を代入するための変数を用意する。
 	int difference;
 	//整数1の値を入力する。
 	std::cout << "整数1の値を入力してください:";
