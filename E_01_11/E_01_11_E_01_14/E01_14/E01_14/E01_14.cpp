@@ -11,15 +11,15 @@ using namespace std;
 int main()
 {
 	srand(time(NULL));            //rand()の種を設定する
-	int randomIntger;               //-5～5が入る変数
-	int enterdInteger;               //入力される整数を入れる変数
+	int randomInteger;               //-5～5が入る変数
+	int enteredInteger;               //入力される整数を入れる変数
 
 	 //0～10の乱数から5を引くことにより-5～5の整数を作る
-	randomIntger = (rand() % 11) - 5; 
+	randomInteger = (rand() % 11) - 5; 
 	cout << "整数値:";
 
-	cin >> enterdInteger;            //整数を入力する。
+	cin >> enteredInteger;            //整数を入力する。
 
 	//入力された変数に-5～5を足し入力値から±5の乱数を生成することを実現する
-	cout << "その値の±5の乱数を生成しました。それは" << enterdInteger + randomIntger << "です。";
+	cout << "その値の±5の乱数を生成しました。それは" << enteredInteger + randomInteger << "です。";
 }
