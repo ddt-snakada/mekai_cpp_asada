@@ -12,11 +12,12 @@ int main()
 	cin >> enterdNumber;
 
 	//0以上かの条件
-	if (enterdNumber >= 0)
+	if (enterdNumber >= 0){
 		//0以上であれば、そのまま表示する
 		cout << "その絶対値は" << enterdNumber << "です\n";
 	//0より小さい条件、つまり負の数
-	else
+	}else{
 		//0より小さい場合は-1を入力された整数値にかける
 		cout << "その絶対値は" << -1 * enterdNumber << "です\n";
+	}
 }

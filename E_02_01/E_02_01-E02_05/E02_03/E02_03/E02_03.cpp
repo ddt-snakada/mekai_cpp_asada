@@ -13,12 +13,13 @@ int main()
 	std::cin >> b; //bの値を読み込む
 
 	//aの値がbの値より大きい場合
-	if (a > b)
+	if (a > b){
 		std::cout << "aのほうが大きいです\n";
 	//bの値がaの値より大きい場合
-	else if (b > a)
+	}else if (a < b){
 		std::cout << "bのほうが大きいです\n";
 	//aとbの値が同じ場合
-	else if (a == b)
+	}else if (a == b){
 		std::cout << "aとbは同じ値です。";
+	}
 }
