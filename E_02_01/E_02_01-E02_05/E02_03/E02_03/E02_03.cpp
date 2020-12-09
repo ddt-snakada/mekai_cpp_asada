@@ -5,21 +5,30 @@
 
 int main()
 {
-	int a; //問題文の指定のa
-	int b; //問題文の指定のb
+	//問題文の指定のa
+	int a;
+	//問題文の指定のb
+	int b; 
+	//aの入力を促す
 	std::cout << "aの値は:";
-	std::cin >> a; //aの値を読み込む
+	//aの値を読み込む
+	std::cin >> a; 
+	//bの入力を促す
 	std::cout << "bの値は:";
-	std::cin >> b; //bの値を読み込む
+	//bの値を読み込む
+	std::cin >> b; 
 
 	//aの値がbの値より大きい場合
 	if (a > b){
+		//aが大きいことを出力
 		std::cout << "aのほうが大きいです\n";
 	//bの値がaの値より大きい場合
 	}else if (a < b){
+		//bが大きいことを出力
 		std::cout << "bのほうが大きいです\n";
 	//aとbの値が同じ場合
 	}else if (a == b){
+		//aとbが同じことを出力
 		std::cout << "aとbは同じ値です。";
 	}
 }
