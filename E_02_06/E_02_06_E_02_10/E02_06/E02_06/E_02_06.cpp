@@ -11,15 +11,19 @@ int main(){
 	std::cin >> testPoint;
 	//0以上60未満の場合、不可を出力
 	if (testPoint >= 0 && testPoint < 60) {
+		//不可を出力する
 		std::cout << "不可";
 	}//60以上70未満の場合、可を出力
 	else if ( testPoint >=60 && testPoint < 70) {
+		//可を出力する
 		std::cout << "可";
 	}//70以上80未満の場合、良を出力
 	else if (testPoint >=70 && testPoint < 80){
+		//良を出力する
 		std::cout << "良";
 	}//80以上100以下の場合、優を出力
 	else if (testPoint >= 80 && testPoint <=100) {
+		//優を出力する
 		std::cout << "優";
 	}
 
