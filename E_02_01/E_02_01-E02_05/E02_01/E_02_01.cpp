@@ -5,8 +5,9 @@ using namespace std;
 
 int main() 
 {
-	int enterdNumber; //整数値を入力するための変数
-	
+	//整数値を入力するための変数
+	int enterdNumber; 
+	//整数値入力を促す表示
 	cout << "整数値:";
 	//整数値を入力する
 	cin >> enterdNumber;
